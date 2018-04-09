@@ -11,3 +11,11 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+eval $(dircolors ~/.dircolors/dircolors.256dark)
+
+# Customize to your needs...
+HISTSIZE=5000
+HISTFILE=~/.zsh_history
+SAVEHIST=5000
